@@ -23,7 +23,7 @@ document.getElementById('fetch-posts').onclick = function(){
 
 document.getElementById('fetch-posts').onclick = function(){
 
-    var postListHTML =""
+    var postListHTML ="";
 
     fetch('http://jsonplaceholder.typicode.com/posts')
         .then((response)=>response.json())
