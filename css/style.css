@@ -1,0 +1,37 @@
+body{
+    background-color: #444444;
+    color: white;
+}
+
+#post-title{
+    color: rgb(255, 136, 0);
+    font-size: 30px;
+    text-shadow: rgb(184, 26, 26) 2px 2px;
+}
+#post-body{
+    color: rgb(251, 255, 0);
+    font-size: 14px;
+}
+#post-container{
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    background-color: #222222;
+    border-radius: 20px;
+    background-image: url('../img/hw.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fetch-posts{
+    background-image: linear-gradient(to left, rgb(77, 0, 0) , rgb(255, 157, 0));
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    border-radius: 20px;
+    height: 50px;
+    cursor: pointer;
+    border-color: rgb(255, 25, 0);
+    border-style: dotted;
+    border-width: 3px;
+    width: 100%;
+}
