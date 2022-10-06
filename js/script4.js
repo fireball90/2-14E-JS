@@ -28,9 +28,7 @@ document.getElementById('fetch-posts').onclick = function(){
     fetch('http://jsonplaceholder.typicode.com/posts')
         .then((response)=>response.json())
         .then((data)=>appendData(data))
-        .catch(function (err) {
-            console.log('error: ' + err);
-        });
+        .catch((err)=>console.log('error: ' + err));
 
     function appendData(data) {
         for (var i = 0; i < data.length; i++) {
